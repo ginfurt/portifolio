@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Peres Neto - Portfólio</title>
+    <meta name="description" content="Portfólio de Daniel Peres Neto - Graduando em Ciência de Dados e Inteligência Artificial">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Partículas de fundo -->
+    <div class="particles-container">
+        <canvas id="particles"></canvas>
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Daniel</span>
+                <span class="logo-accent">.</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">Competências</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link" data-section="certificates">Certificados</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Olá, eu sou</span>
+                        <span class="title-name">Daniel Peres Neto</span>
+                        <span class="title-role">Graduando em Ciência de Dados e Inteligência Artificial</span>
+                    </h1>
+                    <p class="hero-description">
+                        Graduando em Ciência de Dados e Inteligência Artificial, com experiência prática em análise de dados, cibersegurança e suporte de TI. Busco oportunidades para aplicar e expandir minhas habilidades em ambientes inovadores.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Ver Projetos</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contactar</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="floating-elements">
+                            <div class="floating-icon" data-icon="python">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="database">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="chart">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="brain">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <img src="images/eu1.png" alt="Daniel Peres Neto" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-text">Scroll</div>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Conheça a minha jornada profissional</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="glass-card">
+                        <h3>Estudante de Ciência de Dados e IA</h3>
+                        <p>
+                            Sou um graduando em Ciência de Dados e Inteligência Artificial com experiência prática em análise de dados, cibersegurança e suporte de TI. Minha paixão é transformar dados complexos em insights acionáveis e soluções inovadoras. Busco ativamente oportunidades para aplicar e expandir minhas habilidades em ambientes dinâmicos e desafiadores.
+                        </p>
+                        <p>
+                            Durante minha trajetória, atuei como Analista de Centro de Comando/JR na Waytech Soluções em Tecnologia, onde desenvolvi competências em Zabbix e Active Directory. Minhas experiências anteriores como Analista de Suporte de TI na Vertic Tecnologia Ltda. e Maxxi Solutions Informática me proporcionaram uma base sólida em manutenção de computadores, resolução de problemas e gerenciamento de servidores, aprimorando minha capacidade de lidar com diversas demandas tecnológicas.
+                        </p>
+                        <p>
+                            Possuo habilidades sólidas em Python, SQL, Power BI, Machine Learning, Data Visualization, HTML/CSS e JavaScript, além de familiaridade com Java. Estou sempre em busca de novos conhecimentos e desafios para contribuir com o avanço da tecnologia e da análise de dados.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Anos de Experiência</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Projetos Concluídos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Tecnologias</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Certificações</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Competências -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Competências</h2>
+                <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Linguagens de Programação</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Análise de Dados</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Power BI</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Machine Learning</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Data Visualization</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Desenvolvimento Web</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML/CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos</h2>
+                <p class="section-subtitle">Alguns dos meus trabalhos mais recentes</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Power.png" alt="Dashboard Power BI">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Financeiro - Bulltrend</h3>
+                        <p>Análise detalhada do mercado financeiro da Bulltrend com foco específico no setor de bebidas. Dashboard interativo com métricas de desempenho e indicadores financeiros.</p>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Finance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Power2.png" alt="Dashboard Power BI 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Análise de Mercado Financeiro</h3>
+                        <p>Dashboard avançado para análise de mercado financeiro com indicadores de performance, tendências e insights estratégicos para tomada de decisões.</p>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Financial Analysis</span>
+                            <span class="tag">KPIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <video autoplay loop muted>
+                            <source src="images/emprestimo.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Análise de Empréstimos</h3>
+                        <p>Aplicação interativa para análise de dados de empréstimos com visualizações dinâmicas e métricas de risco financeiro.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Science</span>
+                            <span class="tag">Risk Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Certificados -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificados</h2>
+                <p class="section-subtitle">Formações e certificações profissionais</p>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/certi.png" alt="Certificado Power BI">
+                        <div class="certificate-overlay">
+                            <div class="certificate-info">
+                                <h4>Power BI</h4>
+                                <p>Certificação em análise de dados e visualização</p>
+                                <span class="certificate-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/certi2.png" alt="Certificado Python">
+                        <div class="certificate-overlay">
+                            <div class="certificate-info">
+                                <h4>Python para Data Science</h4>
+                                <p>Programação Python aplicada à ciência de dados</p>
+                                <span class="certificate-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/certi3.png" alt="Certificado Banco de Dados">
+                        <div class="certificate-overlay">
+                            <div class="certificate-info">
+                                <h4>Modelagem de Banco de Dados</h4>
+                                <p>Entidades, relacionamentos e atributos</p>
+                                <span class="certificate-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+                <p class="section-subtitle">Entre em contacto para discutir oportunidades</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>danielpneto2009@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/daniel-neto42/</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/danielpnet</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Enviar Mensagem</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Daniel Peres Neto. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/cisco_hacker_etico.png" alt="Certificado Hacker Ético">
+                        <div class="certificate-overlay">
+                            <a href="#" class="certificate-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Hacker Ético</h3>
+                        <p>Cisco Networking Academy</p>
+                        <a href="#" class="btn btn-secondary" target="_blank">Ver Credencial</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/cisco_ciberseguranca.png" alt="Certificado Analista de Cibersegurança Júnior">
+                        <div class="certificate-overlay">
+                            <a href="#" class="certificate-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Trilha Profissionalizante Analista de Cibersegurança Júnior</h3>
+                        <p>Cisco</p>
+                        <a href="#" class="btn btn-secondary" target="_blank">Ver Credencial</a>
+                    </div>
+                </div>
+
